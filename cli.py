@@ -17,8 +17,8 @@ if __name__ == '__main__':
     while winner is None:
         display_board(board)
         print(f"Player {player}'s turn")
-        row = int(input("Enter row (0, 1, or 2): ")-1
-        col = int(input("Enter column (0, 1, or 2): ")-1
+        row = int(input("Enter row (1, 2, or 3): ")-1
+        col = int(input("Enter column (1, 2, or 3): ")-1
 
         if board[row][col] is not None:
             print("Cell already occupied. Try again.")
